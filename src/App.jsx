@@ -3,6 +3,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero';
+import BrowseListings from './components/BrowseListings';
 
 const App = () => {
   useEffect(() => {
@@ -15,6 +16,7 @@ const App = () => {
     <div className='min-h-screen bg-gradient-to-b from-[#10023f] to-[#300c92] text-white '>
       <Navbar />
       <Hero />
+      <BrowseListings />
     </div>
   )
 }
