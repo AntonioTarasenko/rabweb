@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero';
 import BrowseListings from './components/BrowseListings';
+import Sell from './components/Sell';
 
 const App = () => {
   useEffect(() => {
@@ -17,6 +18,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <BrowseListings />
+      <Sell />
     </div>
   )
 }
