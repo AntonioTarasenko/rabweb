@@ -5,6 +5,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero';
 import BrowseListings from './components/BrowseListings';
 import Sell from './components/Sell';
+import Categories from './components/Categories';
+
 
 const App = () => {
   useEffect(() => {
@@ -19,6 +21,7 @@ const App = () => {
       <Hero />
       <BrowseListings />
       <Sell />
+      <Categories />
     </div>
   )
 }
