@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import BrowseListings from './components/BrowseListings';
 import Sell from './components/Sell';
 import Categories from './components/Categories';
+import Pricing from './components/Pricing';
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <BrowseListings />
       <Sell />
       <Categories />
+      <Pricing />
     </div>
   )
 }
