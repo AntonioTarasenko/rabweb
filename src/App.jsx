@@ -7,6 +7,7 @@ import BrowseListings from './components/BrowseListings';
 import Sell from './components/Sell';
 import Categories from './components/Categories';
 import Pricing from './components/Pricing';
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <Sell />
       <Categories />
       <Pricing />
+      <Footer />
     </div>
   )
 }
